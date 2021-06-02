@@ -19,6 +19,12 @@ pipeline{
         echo "varsha"
       }
     }
+    stage(deploy)
+    {
+      steps{
+        echo "blue"
+      }
+    }
   }
 }
 
