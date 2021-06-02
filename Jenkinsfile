@@ -4,23 +4,22 @@ pipeline{
     stage(checkout)
     {
       steps{
-        echo "Hello"
+        echo "hello"
+      }
+    }
+    stage(build)
+    {
+      steps{
+        echo "world"
       }
     }
     stage(test)
     {
       steps{
-        echo "World"
-      }
-    }
-    stage(deploy)
-    {
-      steps{
-        echo "Varsha"
+        echo "varsha"
       }
     }
   }
 }
 
     
-  
