@@ -22,7 +22,7 @@ pipeline{
     stage(deploy)
     {
       steps{
-        echo "colour blue"
+        echo "colour blue - favourite"
       }
     }
   }
