@@ -4,7 +4,10 @@ pipeline{
     stage(checkout)
     {
       steps{
-        echo "hello"
+        sh """
+              javac Java1.java
+              java Java1
+           """
       }
     }
     stage(build)
