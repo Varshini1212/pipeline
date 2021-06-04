@@ -1,5 +1,4 @@
-import java.io.*
-public class Java1
+class Java1
 {
   public static void main(String[] args)
   {
